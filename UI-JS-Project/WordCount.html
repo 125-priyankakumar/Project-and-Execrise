@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<body style="text-align: center;">
+    <h1 style="color: rgb(31, 2, 7)">
+        WORD COUNT AND NUMBER OF LETTERS
+    </h1>
+    <p>
+        Type in the textbox and click on the button to count the words and Find the Number of String
+    </p>
+    <textarea id="inputField" rows=5 cols="40">
+	</textarea>
+    <br><br>
+
+    <button onclick="Words_Count()">
+		Count Words
+	</button>
+    <button onclick="Letters_Count()">
+		Count Letters
+	</button>
+    <br><br>
+    <p> Words Count:
+        <span id="show">0</span>
+    </p>
+    <p>Number of Letters:
+        <span id="shownow">0</span></p>
+    <script>
+        // Letters
+        function Letters_Count() {
+
+            var text = document.getElementById("inputField").value;
+            var numLetters = 0;
+
+
+            for (var i = 1; i < text.length; i++) {
+                numLetters += 1;
+            }
+
+            document.getElementById("shownow")
+                .innerHTML = numLetters;
+        }
+
+        // Words 
+        function Words_Count() {
+
+            var text = document
+                .getElementById("inputField").value;
+            var numWords = 0;
+
+
+            for (var i = 0; i < text.length; i++) {
+                var currentCharacter = text[i];
+
+                if (currentCharacter == " ") {
+                    numWords += 1;
+                }
+            }
+
+            numWords += 1;
+
+            document.getElementById("show")
+                .innerHTML = numWords;
+        }
+    </script>
+</body>
+</body>
+
+</html>
+
+
+</script>
+</body>
+
+</html>
