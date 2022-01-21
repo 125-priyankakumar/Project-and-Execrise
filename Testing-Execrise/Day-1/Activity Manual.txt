@@ -1,0 +1,49 @@
+ACTIVITY 1 
+Spiral Model
+Project 1: aims to develop an operating system for mobile phones. The team realizes that their Release 1.0 will not be able to achieve excellent user satisfaction, but they still plan for Release 1.0. Through this release, they plan to gather the customer evaluation that includes the market of the product at large. After receiving the feedback, they choose to develop a new version of their operating system, using whatever are the latest technologies in mobile application. This operating system includes mobile with an enhancements and improved graphical flexibility but do have risks involved on compatibility. If using newer technology, the release may happen earlier than planned.
+
+Prototype
+Project 2 :aims to create an online shopping website. To convince the new client about the new plan, they decide to develop a prototype of all the pages in the website. The prototype will then be presented to the client. If the client does not approve the plan, they revisit the website and resubmit the prototype again to the client. After the client approves the plan, the requirements are revisited again and the design of the online shopping website is initiated. The approved prototype then gets evolved into the final system.
+
+<<<<<<< HEAD
+Increment
+=======
+Increment or Waterfall
+>>>>>>> fd4e1cd (Testing Execrise)
+Project 3 :provides services to a banking client. On the first executive meeting with the board members, the management team decides to deliver the comprehensive banking solution earlier than decided. The comprehensive banking solution includes online personal banking, loans, insurance, and database back-up systems. The board specifies the priority of an earlier release per solution. The Project 3 team decides to deliver these solutions every two months, depending on the priority dictated by the board of members. As per the plan, within eight months the comprehensive banking solution will be delivered.
+
+Waterfall Model
+Project 4: deals with a public-sector client. The main responsibility of the client is to upgrade the online solution of a particular government agency. Since the client invested 2 years to define the requirements, the client did not want the Project Manager to make any changes to the requirements. Taking the condition into consideration, the Project Manager decides to divide the efforts of the client into different phases. The Project Manager also decides not to start a phase until the previous phase is. According to the plan, the project can be deployed on the targeted release date
+
+
+<<<<<<< HEAD
+
+
+
+ACTIVITY 2
+1. Module’s Logic- Unit testing
+2. Disk Failure and Mirroring System- System testing
+3. Interfaces are installed and run as expected- User acceptance testing
+4. System Performance at peak volume levels- System testing
+5. Business requirement being tested by the users- User acceptance
+6. Business process errors and exception  logic are handled correctly (tested by the Test team)- System testing
+7. Assembly and combined operations of components- Integration testing
+8. Low-level functionality of several small sets of related components- Integration testing
+9. Testing logical branches- System testing
+10. Nature of performance degradation- Beta testing 
+=======
+ACTIVITY 2 (Testing Stage)
+1. Module’s Logic- Unit testing
+2. Disk Failure and Mirroring System-User Acceptance testing
+3. Interfaces are installed and run as expected- System testing
+4. System Performance at peak volume levels- System testing
+5. Business requirement being tested by the users- Acceptance Testing
+6. Business process errors and exception  logic are handled correctly (tested by the Test team)- System testing
+7. Assembly and combined operations of components- System testing
+8. Low-level functionality of several small sets of related components- Integration testing
+9. Testing logical branches- Integration testing
+10. Nature of performance degradation- System testing 
+
+
+>>>>>>> fd4e1cd (Testing Execrise)
+
