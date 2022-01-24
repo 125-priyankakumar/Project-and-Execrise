@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: jwtDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: PRIYANKA
+Implementation-Vendor-Id: es.softtek
+Build-Jdk: 1.8.0_311
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/jwtDemo
+Created-By: Maven Integration for Eclipse
+
