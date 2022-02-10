@@ -1,0 +1,89 @@
+{
+  "id": "c630543a-b6de-4ac2-a112-9c1ceac43388",
+  "version": "2.0",
+  "name": "Selenium Test",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "52feaecb-ed65-4dcd-a2b6-5f7db01256d2",
+    "name": "Google Page",
+    "commands": [{
+      "id": "1dd59b55-d114-4a9e-9bce-41f8ccf0b903",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4570b473-4e6b-4ec3-8af0-36bc87f2f248",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x705",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e8d01508-bc30-411e-b9ab-9e8dbceab108",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium"
+    }, {
+      "id": "c759ec69-8359-4402-9b1d-44227aeb736d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sbhl b",
+      "targets": [
+        ["css=.sbhl b", "css:finder"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,' ide for chrome')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0dd7363-c052-4144-98d4-2ed3069d8d9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.g:nth-child(1) > .jtfYYd .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(1) > .jtfYYd .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce0da107-cbe7-4b10-b1bd-83ca6855cb21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g:nth-child(1) > .jtfYYd .LC20lb",
+      "targets": [
+        ["css=.g:nth-child(1) > .jtfYYd .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a91b07a3-66e1-489a-a1df-5fec45923dcf",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "98cd793a-e59d-408d-992f-6b7337028207",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["52feaecb-ed65-4dcd-a2b6-5f7db01256d2"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

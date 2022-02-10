@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="120073" started-at="2022-02-10T17:14:06 IST" finished-at="2022-02-10T17:16:06 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="120073" started-at="2022-02-10T17:14:06 IST" finished-at="2022-02-10T17:16:06 IST">
+      <class name="com.selenium.Testcase1">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.Testcase1@2781e022]" name="beforeTest" is-config="true" duration-ms="37925" started-at="2022-02-10T17:14:06 IST" finished-at="2022-02-10T17:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.selenium.Testcase1@2781e022]" name="beforeClass" is-config="true" duration-ms="0" started-at="2022-02-10T17:14:44 IST" finished-at="2022-02-10T17:14:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test3()[pri:1, instance:com.selenium.Testcase1@2781e022]" name="Test3" duration-ms="22299" started-at="2022-02-10T17:14:44 IST" finished-at="2022-02-10T17:15:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test2()[pri:2, instance:com.selenium.Testcase1@2781e022]" name="Test2" duration-ms="28076" started-at="2022-02-10T17:15:06 IST" finished-at="2022-02-10T17:15:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test1()[pri:3, instance:com.selenium.Testcase1@2781e022]" name="Test1" duration-ms="31651" started-at="2022-02-10T17:15:34 IST" finished-at="2022-02-10T17:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.selenium.Testcase1@2781e022]" name="afterClass" is-config="true" duration-ms="0" started-at="2022-02-10T17:16:06 IST" finished-at="2022-02-10T17:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.Testcase1@2781e022]" name="afterTest" is-config="true" duration-ms="0" started-at="2022-02-10T17:16:06 IST" finished-at="2022-02-10T17:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.Testcase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
